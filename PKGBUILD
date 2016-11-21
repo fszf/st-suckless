@@ -20,12 +20,14 @@ source=('git://git.suckless.org/st'
         '2-personal.diff'
         '3-copypaste.diff'
         '4-color.diff'
+        '5-scrollback-mouse.diff'
         )
 sha1sums=('SKIP'
-          '2e5b06bd4b68b4dd83e1e36664d3641f9d666027'
+          'e819ce212c8f3c1843f6800b3e971deb5992c909'
           '5a4f22f31365b477fa8536b2d05ef458c6643d18'
           '463b05d46c5e1206c119087e7b2a937e8d2f2992'
-          '5a4450cad7e7f7f5c5660f74b6c9865ae2928c1a')
+          '5a4450cad7e7f7f5c5660f74b6c9865ae2928c1a'
+          '38bcb7047bb2bb2d11125293836a141a8eb430ce')
 
 provides=("${_pkgname}")
 conflicts=("${_pkgname}")
