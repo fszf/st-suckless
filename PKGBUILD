@@ -25,7 +25,7 @@ source=('git://git.suckless.org/st'
         '5-scrollback-mouse.diff'
         )
 sha1sums=('SKIP'
-          '2e5b06bd4b68b4dd83e1e36664d3641f9d666027'
+          'c4e82b491bba7a78777647ff16624e3ffb570937'
           '5a4f22f31365b477fa8536b2d05ef458c6643d18'
           '463b05d46c5e1206c119087e7b2a937e8d2f2992'
           '5a4450cad7e7f7f5c5660f74b6c9865ae2928c1a'
