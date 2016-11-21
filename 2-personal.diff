@@ -1,0 +1,22 @@
+diff --git a/config.def.h b/config.def.h
+index b41747f..eae969e 100644
+--- a/config.def.h
++++ b/config.def.h
+@@ -7,7 +7,7 @@
+  *
+  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
+  */
+-static char font[] = "Fixed:pixelsize=13:style=SemiCondensed";
++static char font[] = "PragmataPro:size=10:antialias=true:autohint=true;";
+ static int borderpx = 2;
+ #define histsize 2000
+ 
+@@ -67,6 +67,6 @@ static char termname[] = {
+ static int bellvolume = 0;
+
+ /* default TERM value */
+-static char termname[] = "st-256color";
++static char termname[] = "xterm-256color";
+ 
+ /*
+  * spaces per tab

@@ -1,0 +1,66 @@
+--- a/config.def.h	2016-11-20 21:35:32.500590443 -0800
++++ b/config.def.h	2016-11-20 21:39:45.305530896 -0800
+@@ -85,31 +85,28 @@
+ 
+ /* Terminal colors (16 first used in escape sequence) */
+ static const char *colorname[] = {
+-	/* 8 normal colors */
+-	"black",
+-	"red3",
+-	"green3",
+-	"yellow3",
+-	"blue2",
+-	"magenta3",
+-	"cyan3",
+-	"gray90",
+-
+-	/* 8 bright colors */
+-	"gray50",
+-	"red",
+-	"green",
+-	"yellow",
+-	"#5c5cff",
+-	"magenta",
+-	"cyan",
+-	"white",
++	"#3d3d3d",
++	"#8a2f58",
++	"#287373",
++	"#914e89",
++	"#395573",
++	"#5e468c",
++	"#2b7694",
++	"#899ca1",
++	"#5e5e5e",
++	"#cf4f88",
++	"#53a6a6",
++	"#bf85cc",
++	"#4779b3",
++	"#7f62b3",
++	"#47959e",
++	"#c0c0c0",
+ 
+ 	[255] = 0,
+ 
+-	/* more colors can be added after 255 to use with DefaultXX */
+-	"#cccccc",
+-	"#555555",
++	"#a7a7a7",
++	"#1e1e1e",
++	"black",
+ };
+ 
+ 
+@@ -117,9 +114,9 @@
+  * Default colors (colorname index)
+  * foreground, background, cursor, reverse cursor
+  */
+-static unsigned int defaultfg = 7;
+-static unsigned int defaultbg = 0;
+-static unsigned int defaultcs = 1;
++static unsigned int defaultfg = 256;
++static unsigned int defaultbg = 257;
++static unsigned int defaultcs = 256;
+ static unsigned int defaultrcs = 257;
+ 
+ /*
