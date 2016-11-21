@@ -1,8 +1,10 @@
 # Maintainer: mar77i <mar77i at mar77i dot ch>
 # Past Maintainer: Gaetan Bisson <bisson@archlinux.org>
 # Contributor: Scytrin dai Kinthra <scytrin@gmail.com>
+# Modified for personal use: frank604
 
-pkgname=st-git
+
+pkgname=st-fs
 _pkgname=st
 pkgver=0.7.14.g740ada1
 pkgrel=1
@@ -23,11 +25,11 @@ source=('git://git.suckless.org/st'
         '5-scrollback-mouse.diff'
         )
 sha1sums=('SKIP'
-          'e819ce212c8f3c1843f6800b3e971deb5992c909'
+          '2e5b06bd4b68b4dd83e1e36664d3641f9d666027'
           '5a4f22f31365b477fa8536b2d05ef458c6643d18'
           '463b05d46c5e1206c119087e7b2a937e8d2f2992'
           '5a4450cad7e7f7f5c5660f74b6c9865ae2928c1a'
-          '38bcb7047bb2bb2d11125293836a141a8eb430ce')
+          'ff20063de5fab0359cbd77cb2d2e462ad3f7e36f')
 
 provides=("${_pkgname}")
 conflicts=("${_pkgname}")
