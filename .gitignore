@@ -1,3 +1,4 @@
+.gitignore
 pkg/
 src/
 st/
