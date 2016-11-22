@@ -41,7 +41,7 @@ sha1sums=('SKIP'
           'dcde03cab595bdacc51011bcfc5d520611b9a03f'
           '7521f301fe525aa6eb2c2579d5212260d94bbe52'
           'fa02e1690f53884fac3a0628b57bb6de0a607564'
-          'a77474738959185fe3e62f61e70a48366ea7f824')
+          '706ebf978e8479e3061c1e856c5df3158d9fa1d5')
 
 provides=("${_pkgname}")
 conflicts=("${_pkgname}")
