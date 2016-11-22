@@ -18,9 +18,9 @@ index 64e75b8..0811af4 100644
 -	{ XK_Delete,        XK_ANY_MOD,     "\033[3~",      +1,    0,    0},
 -	{ XK_BackSpace,     XK_NO_MOD,      "\177",          0,    0,    0},
 +	{ XK_Delete,        XK_ANY_MOD,     "\177",         +1,    0,    0},
+	{ XK_BackSpace,     Mod1Mask,       "\033\177",      0,    0,    0},
  	{ XK_Home,          ShiftMask,      "\033[2J",       0,   -1,    0},
  	{ XK_Home,          ShiftMask,      "\033[1;2H",     0,   +1,    0},
- 	{ XK_Home,          XK_ANY_MOD,     "\033[H",        0,   -1,    0},
 diff --git a/st.info b/st.info
 index 2acd8b2..21b4734 100644
 --- a/st.info

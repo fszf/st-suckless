@@ -1,0 +1,10 @@
+--- a/config.def.h	2016-11-21 20:05:46.140272963 -0800
++++ b/config.def.h	2016-11-21 20:07:04.480651776 -0800
+@@ -177,6 +177,7 @@
+ 	{ ShiftMask,           XK_Page_Up,     kscrollup,      {.i = -1} },
+ 	{ ShiftMask,           XK_Page_Down,   kscrolldown,    {.i = -1} },
+ 	{ MODKEY,               XK_Control_L,   iso14755,       {.i =  0} },
++    { MODKEY, 'u', externalpipe, { .v = "xurls | dmenu -l 10 | xargs -r open" } },
+ };
+ 
+ /*

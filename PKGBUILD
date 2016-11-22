@@ -26,6 +26,9 @@ source=('git://git.suckless.org/st'
         '6-scrollback-mouse-altscreen.diff'
         '7-clipboard.diff'
         '8-vertcentre.diff'
+        '9-delkey.diff'
+        '10-externalpipe.diff'
+        '11-extpipe.diff'
         )
 sha1sums=('SKIP'
           'c4e82b491bba7a78777647ff16624e3ffb570937'
@@ -35,7 +38,10 @@ sha1sums=('SKIP'
           '88b85b0f3dff3606c5c791ab5752fdfb36727c7c'
           'a891faa40d51641dc3f54d472cdcfa8fa83e6fc7'
           'c916dc2410a0e43a06ace5c23a199ece273409c8'
-          'dcde03cab595bdacc51011bcfc5d520611b9a03f')
+          'dcde03cab595bdacc51011bcfc5d520611b9a03f'
+          '7521f301fe525aa6eb2c2579d5212260d94bbe52'
+          'fa02e1690f53884fac3a0628b57bb6de0a607564'
+          '21677a7c9c4c5ecadea9da330b089d7db9a74c1b')
 
 provides=("${_pkgname}")
 conflicts=("${_pkgname}")
