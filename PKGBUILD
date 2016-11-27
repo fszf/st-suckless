@@ -6,7 +6,7 @@
 
 pkgname=st-fs
 _pkgname=st
-pkgver=0.7.14.g740ada1
+pkgver=0.7.16.ge448324
 pkgrel=1
 pkgdesc='Simple virtual terminal emulator for X'
 url='http://st.suckless.org/'
@@ -21,7 +21,7 @@ source=('git://git.suckless.org/st'
         '1-scrollback-0.7.diff'
         '2-personal.diff'
         '3-copypaste.diff'
-        '4-color.diff'
+        '4-color-jasonwryan-dark.diff'
         '5-scrollback-mouse.diff'
         '6-scrollback-mouse-altscreen.diff'
         '7-clipboard.diff'
@@ -34,7 +34,7 @@ sha1sums=('SKIP'
           'c4e82b491bba7a78777647ff16624e3ffb570937'
           '5a4f22f31365b477fa8536b2d05ef458c6643d18'
           '463b05d46c5e1206c119087e7b2a937e8d2f2992'
-          '5a4450cad7e7f7f5c5660f74b6c9865ae2928c1a'
+          'f88d03db3fa8bfb989e86e0e0a79fc96ee6e6bfa'
           '88b85b0f3dff3606c5c791ab5752fdfb36727c7c'
           'a891faa40d51641dc3f54d472cdcfa8fa83e6fc7'
           'c916dc2410a0e43a06ace5c23a199ece273409c8'
