@@ -1,6 +1,6 @@
 --- a/config.def.h	2016-11-20 21:35:32.500590443 -0800
 +++ b/config.def.h	2016-11-20 21:39:45.305530896 -0800
-@@ -85,31 +85,28 @@
+@@ -85,31 +85,31 @@
  
  /* Terminal colors (16 first used in escape sequence) */
  static const char *colorname[] = {
@@ -23,31 +23,34 @@
 -	"magenta",
 -	"cyan",
 -	"white",
-+	"#282828", /* background hard contrast: #1d2021 / soft contrast: #32302f */
-+	"#cc241d", /* red */
-+	"#98971a", /* green */
-+	"#d79921", /* yellow replacing default yellow #d79921 to */
-+	"#458588", /* blue */
-+	"#b16286", /* magenta */
-+	"#689d6a", /* cyan */
-+	"#a89984", /* white */
-+	"#928374", /* light black */
-+	"#fb4934", /* light red */
-+	"#b8bb26", /* light green */
-+	"#fabd2f", /* light yellow same as above default #fabd2f */
-+	"#83a598", /* light blue */
-+	"#d3869b", /* light magenta */
-+	"#8ec07c", /* light cyan */
-+	"#ebdbb2", /* foreground */
++	"#101010", /* background hard contrast: #1d2021 / soft contrast: #32302f */
++	"#7c7c7c", /* red */
++	"#8e8e8e", /* green */
++	"#a0a0a0", /* yellow replacing default yellow #d79921 to */
++	"#686868", /* blue */
++	"#747474", /* magenta */
++	"#868686", /* cyan */
++	"#b9b9b9", /* white */
++	"#525252", /* light black */
++	"#7c7c7c", /* light red */
++	"#8e8e8e", /* light green */
++	"#a0a0a0", /* light yellow same as above default #fabd2f */
++	"#686868", /* light blue */
++	"#747474", /* light magenta */
++	"#868686", /* light cyan */
++	"#f7f7f7", /* foreground */
  
  	[255] = 0,
  
 -	/* more colors can be added after 255 to use with DefaultXX */
 -	"#cccccc",
 -	"#555555",
-+	"#d65d0e",
-+	"#fe8019",
-+	"#fbf1c7",
++	"#999999",
++	"#5e5e5e",
++	"#252525",
++	"#464646",
++	"#ababab",
++	"#e3e3e3",
  };
  
  

@@ -7,7 +7,7 @@ index b41747f..eae969e 100644
   * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
   */
 -static char font[] = "Fixed:pixelsize=13:style=SemiCondensed";
-+static char font[] = "PragmataPro:size=10:antialias=true:autohint=true;";
++static char font[] = "Inconsolata:size=10:antialias=True:autohint=True;";
  static int borderpx = 2;
  #define histsize 2000
  
@@ -16,7 +16,7 @@ index b41747f..eae969e 100644
 
  /* default TERM value */
 -static char termname[] = "st-256color";
-+static char termname[] = "xterm-256color";
++static char termname[] = "screen-256color";
  
  /*
   * spaces per tab
