@@ -21,7 +21,8 @@ source=('git://git.suckless.org/st'
         '1-scrollback-0.7.diff'
         '2-personal.diff'
         '3-copypaste.diff'
-        '4-color-base16-grayscale-dark.diff'
+        '4-color-base16-tomorrow-night.diff'
+        #'4-color-base16-grayscale-dark.diff'
         #'4-color-gruvbox.diff'
         #'4-color-jasonwryan-dark.diff'
         '5-scrollback-mouse.diff'
@@ -34,16 +35,16 @@ source=('git://git.suckless.org/st'
         )
 sha1sums=('SKIP'
           'c4e82b491bba7a78777647ff16624e3ffb570937'
-          '5bd73c55e57fdd0485887a3cc7a41a5439a06d58'
+          '1158b0f893a326f74a5c3fa7240ad931674cdb6b'
           '463b05d46c5e1206c119087e7b2a937e8d2f2992'
-          '53f55c3e4adc91759202dc6c93cc2d741ce83e8c'
+          '8b4b6398cb22d7d8b2c43c797f710cb7f6c3a9ca'
           '88b85b0f3dff3606c5c791ab5752fdfb36727c7c'
           'a891faa40d51641dc3f54d472cdcfa8fa83e6fc7'
           'c916dc2410a0e43a06ace5c23a199ece273409c8'
           'dcde03cab595bdacc51011bcfc5d520611b9a03f'
           '7521f301fe525aa6eb2c2579d5212260d94bbe52'
           'fa02e1690f53884fac3a0628b57bb6de0a607564'
-          '706ebf978e8479e3061c1e856c5df3158d9fa1d5')
+          '70eda702ad2d346bb1e3c80ad07ac28d586926da')
 
 provides=("${_pkgname}")
 conflicts=("${_pkgname}")

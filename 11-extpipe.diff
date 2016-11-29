@@ -4,7 +4,7 @@
  	{ ShiftMask,           XK_Page_Up,     kscrollup,      {.i = -1} },
  	{ ShiftMask,           XK_Page_Down,   kscrolldown,    {.i = -1} },
  	{ MODKEY,               XK_Control_L,   iso14755,       {.i =  0} },
-+   { MODKEY, 'u', externalpipe, { .v = "xurls | dmenu -l 10 -h 30 | xargs -r qutebrowser --backend webengine" } }, 
++   { MODKEY, 'u', externalpipe, { .v = "xurls -r | dmenu -l 10 -h 30 | xargs -r qutebrowser --backend webengine" } }, 
  };
  
  /*

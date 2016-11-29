@@ -7,7 +7,7 @@ index b41747f..eae969e 100644
   * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
   */
 -static char font[] = "Fixed:pixelsize=13:style=SemiCondensed";
-+static char font[] = "Inconsolata:size=10:antialias=True:autohint=True;";
++static char font[] = "Hack:size=9:antialias=True:autohint=True;";
  static int borderpx = 2;
  #define histsize 2000
  
