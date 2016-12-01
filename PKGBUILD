@@ -35,7 +35,7 @@ source=('git://git.suckless.org/st'
         )
 sha1sums=('SKIP'
           'c4e82b491bba7a78777647ff16624e3ffb570937'
-          '1158b0f893a326f74a5c3fa7240ad931674cdb6b'
+          'f5f57d4ed81b793e81f4703a55953d5200276366'
           '463b05d46c5e1206c119087e7b2a937e8d2f2992'
           '8b4b6398cb22d7d8b2c43c797f710cb7f6c3a9ca'
           '88b85b0f3dff3606c5c791ab5752fdfb36727c7c'
